@@ -1,4 +1,4 @@
-                *Physical AI & Humanoid Robotics Textbook*
+# Physical AI & Humanoid Robotics Textbook
 Comprehensive 13-week textbook for industry practitioners: ROS 2, Digital Twin (Gazebo/Unity), NVIDIA Isaac Sim, and Vision-Language-Action models.
 
 Deploy to GitHub Pages Build Validation
@@ -12,7 +12,7 @@ NVIDIA Isaac Sim (Weeks 8-10): GPU-accelerated simulation and synthetic data
 Vision-Language-Action Models (Weeks 11-13): Multimodal AI for humanoid control
 Target Audience: Industry practitioners with Python programming knowledge, transitioning to robotics and embodied AI.
 
-Course Structure
+# Course Structure
 Module	Weeks	Focus
 Introduction	1-2	Physical AI Foundations
 Module 1: ROS 2	3-5	Architecture, Topics, URDF
@@ -20,18 +20,14 @@ Module 2: Digital Twin	6-7	Gazebo, Unity, Sim2Real
 Module 3: NVIDIA Isaac	8-10	Isaac Sim, Synthetic Data, Imitation Learning
 Module 4: VLA & Humanoids	11-13	Multimodal Models, Transformer Policies
 Capstone	Week 13	Autonomous Humanoid (Voice → Action)
-Hardware Paths
+# Hardware Paths
 Choose one of three hardware configurations:
 
 Digital Twin Workstation: RTX 3060+ GPU, Ubuntu 22.04
 Physical AI Edge Kit: NVIDIA Jetson Orin Nano
 Cloud-Native: AWS/Azure with GPU instances
-Quick Start
-# Clone the repository
-git clone https://github.com/khadija-rafiq/Physical-AI-Humanoid-Robotics-book.git
-cd Physical-AI-Humanoid-Robotics-book
 
-# Install dependencies
+# Install dependencies 
 npm install
 
 # Start development server
@@ -40,7 +36,7 @@ npm start
 # Open http://localhost:3000
 For detailed setup instructions, see specs/001-book-master-plan/quickstart.md.
 
-Documentation Site
+# Documentation Site
 This project uses Docusaurus 3 with:
 
 Dashboard-style homepage with module cards
@@ -48,7 +44,7 @@ Nested sidebar with collapsible categories
 Hybrid search (Algolia + Flexsearch for glossary)
 Custom metadata for chapter prerequisites and learning objectives
 GitHub Actions CI/CD with quality gates
-Project Structure
+# Project Structure
 Physical-AI-Humanoid-Robotics-Textbook/
 ├── docs/                   # Main content
 │   ├── intro.md
@@ -69,10 +65,10 @@ Physical-AI-Humanoid-Robotics-Textbook/
 │       ├── tasks.md
 │       └── contracts/      # JSON Schema for validation
 └── .github/workflows/      # CI/CD pipelines
-Contributing
+# Contributing
 We welcome contributions! Please see the Quickstart Guide for:
 
-Development setup
+# Development setup
 Creating new chapters
 Running quality checks
 Metadata validation
@@ -100,7 +96,7 @@ Search: Algolia DocSearch + Flexsearch
 CI/CD: GitHub Actions
 Deployment: GitHub Pages
 AI Assistant: Claude Code
-Roadmap
+# Roadmap
  Week 1-2: Introduction chapters
  Week 3-5: ROS 2 module chapters
  Week 6-7: Digital Twin module chapters
@@ -114,7 +110,7 @@ Roadmap
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+# Acknowledgments
 Built with Docusaurus by Meta
 Developed using Claude Code AI Assistant
 Following Spec-Kit Plus methodology
