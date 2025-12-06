@@ -1,4 +1,4 @@
-Physical AI & Humanoid Robotics Textbook
+                *Physical AI & Humanoid Robotics Textbook*
 Comprehensive 13-week textbook for industry practitioners: ROS 2, Digital Twin (Gazebo/Unity), NVIDIA Isaac Sim, and Vision-Language-Action models.
 
 Deploy to GitHub Pages Build Validation
@@ -28,8 +28,8 @@ Physical AI Edge Kit: NVIDIA Jetson Orin Nano
 Cloud-Native: AWS/Azure with GPU instances
 Quick Start
 # Clone the repository
-git clone https://github.com/Ameen-Alam/Physical-AI-Humanoid-Robotics-Textbook.git
-cd Physical-AI-Humanoid-Robotics-Textbook
+git clone https://github.com/khadija-rafiq/Physical-AI-Humanoid-Robotics-book.git
+cd Physical-AI-Humanoid-Robotics-book
 
 # Install dependencies
 npm install
